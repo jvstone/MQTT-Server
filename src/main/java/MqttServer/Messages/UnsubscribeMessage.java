@@ -20,7 +20,7 @@ public class UnsubscribeMessage extends Message {
    public UnsubscribeMessage(byte type, byte flags, byte[] messageContents, int messageLength) {
       super(type, flags, messageContents, messageLength);
       qos = (byte) ((flags & 0x06) >> 1);
-      topicList = new LinkedList<>();
+      topicList = new LinkedList();
 
       ByteArrayInputStream inputStream = new ByteArrayInputStream(messageContents);
       DataInputStream dataInputStream = new DataInputStream(inputStream);

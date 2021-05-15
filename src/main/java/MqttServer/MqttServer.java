@@ -23,7 +23,7 @@ public class MqttServer {
    public MqttServer(int portNum) {
       this.portNum = portNum;
       clients = new ConcurrentHashMap<String, Client>();
-      retainedMessages = Collections.synchronizedList(new LinkedList<>());
+      retainedMessages = Collections.synchronizedList(new LinkedList());
 
    }
 

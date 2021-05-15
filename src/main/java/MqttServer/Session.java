@@ -1,5 +1,6 @@
 package MqttServer;
 
+import MqttServer.MqttServer;
 import MqttServer.Messages.ConnectMessage;
 import MqttServer.Messages.Message;
 import MqttServer.Messages.MessageFactory;

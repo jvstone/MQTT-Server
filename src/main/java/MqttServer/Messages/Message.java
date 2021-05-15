@@ -1,5 +1,7 @@
 package MqttServer.Messages;
-import MqttServer.*;
+
+import MqttServer.Client;
+import MqttServer.MqttServer;
 
 public abstract class Message {
    public static final byte MESSAGE_TYPE_CONNECT = 1;

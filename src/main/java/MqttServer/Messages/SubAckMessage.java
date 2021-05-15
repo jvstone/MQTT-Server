@@ -1,7 +1,7 @@
 package MqttServer.Messages;
 
-import MqttServer.Client;
 import MqttServer.MqttServer;
+import MqttServer.Client;
 
 import java.io.DataOutputStream;
 

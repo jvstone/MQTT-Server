@@ -1,6 +1,7 @@
 package MqttServer;
 
-import MqttServer.Messages.*;
+import MqttServer.MqttServer;
+import MqttServer.Messages.Message;
 import MqttServer.Messages.MessageFactory;
 
 import java.io.*;
