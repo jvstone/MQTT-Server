@@ -123,17 +123,6 @@ public class MqttServer {
       return retainedMessages;
    }
 
-   public static void main(String[] args) {
-      int portNum;
-      MqttServer broker;
 
-      if (args.length < 1) {
-         System.out.println("Not enough arguments provided");
-      } else {
-         portNum = Integer.parseInt(args[0]);
-         broker = new MqttServer(portNum);
-         broker.startServer();
-      }
-   }
 
 }

@@ -13,7 +13,6 @@ public class PublishMessage extends Message {
    private byte qos;
    private byte retainFlag;
    private String topicName;
-   private int id;
    private byte topicNameMsb;
    private byte topicNameLsb;
    private byte packetIdMsb;
